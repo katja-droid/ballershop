@@ -1,0 +1,216 @@
+.description{
+    padding: 30px;
+}
+.description-user{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    
+}
+.description-user img{
+    width: 100%;
+    width: 20px;
+    height: 20px;
+}
+.characteristic{
+    display: flex;
+}
+.description h1{
+    color: #000;
+text-align: left;
+font-family: 'Nunito';
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.description p{
+    color: #000;
+
+font-family: 'Nunito';
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: 178.4%; /* 33.896px */
+}
+.description .characteristic{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.characteristic p{
+   width: 30%;
+}
+.description-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.buy{
+    border-radius: 3px;
+background: #00E3E3;
+padding: 30px 50px;
+border: none;
+color: #FFF;
+
+font-family: 'Nunito';
+font-size: 15px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.contact{
+    padding: 5px 30px;
+    border-radius: 3px;
+border: 3px solid #00E3E3;
+
+background: #FFF;
+    color: #00E3E3;
+
+font-family: 'Nunito';
+font-size: 13px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+@media screen and (max-width: 1100px) {
+    .description{
+        padding: 0;
+        margin: 0;
+    }
+    
+    .characteristic{
+        display: flex;
+    }
+    .description h1{
+        color: #000;
+    text-align: left;
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    }
+    .description p{
+        color: #000;
+    
+    font-family: 'Nunito';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.4%; /* 33.896px */
+    }
+    .description .characteristic{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .characteristic p{
+       width: 30%;
+       font-size: 13px;
+    }
+    .description-buttons{
+        display: flex;
+        justify-content: space-between;
+    }
+    .buy{
+        border-radius: 3px;
+    background: #00E3E3;
+    padding: 30px 50px;
+    border: none;
+    color: #FFF;
+    
+    font-family: 'Nunito';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .contact{
+        padding: 5px 30px;
+        border-radius: 3px;
+    border: 3px solid #00E3E3;
+    
+    background: #FFF;
+        color: #00E3E3;
+    
+    font-family: 'Nunito';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+
+}
+@media screen and (min-width: 750px) and (max-width: 1240px) {
+    .description{
+        padding: 0;
+        margin: 0;
+        width: 40vw;
+    }
+    
+    .characteristic{
+        display: flex;
+    }
+    .description h1{
+        color: #000;
+    text-align: left;
+    font-family: 'Nunito';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    }
+    .description p{
+        color: #000;
+    
+    font-family: 'Nunito';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 178.4%; /* 33.896px */
+    }
+    .description .characteristic{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .characteristic p{
+       width: 30%;
+       font-size: 13px;
+    }
+    .description-buttons{
+        display: flex;
+        justify-content: space-between;
+    }
+    .buy{
+        border-radius: 3px;
+    background: #00E3E3;
+    padding: 30px 50px;
+    border: none;
+    color: #FFF;
+    
+    font-family: 'Nunito';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .contact{
+        padding: 5px 30px;
+        border-radius: 3px;
+    border: 3px solid #00E3E3;
+    
+    background: #FFF;
+        color: #00E3E3;
+    
+    font-family: 'Nunito';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+}

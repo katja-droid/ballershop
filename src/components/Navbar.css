@@ -1,0 +1,128 @@
+@media only screen and (min-width: 1024px) {
+    /*NAVIGATION*/
+nav{
+	padding: 3.320vh 2.361vw;
+	background-color: #B336FF;
+	display: flex;
+	justify-content: space-between;
+	 align-items: center;
+}
+.right{
+	display: flex;
+	width: 35.764vw;
+	justify-content: space-between;
+	 align-items: center;
+	color: white;
+}
+.right p{
+	margin-left: 1.667vw;
+}
+.logo{
+	width: 21.597vw;
+
+}
+.add{
+	width: 16.111vw;
+	height: 6.934vh;
+	background-color: #00E3E3;
+	font-family: Nunito;
+	font-weight: bold;
+	color: white;
+	border: none;
+	border-radius: 24px;
+	font-size: 1.0625em;
+}
+.profile img{
+	width: 3.125vw;
+	height: 3.125vw;
+} 
+.profile-name{
+	font-size: 1.5em;
+	font-family: Nunito;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+
+    nav{
+        padding: 1vh 2vw;
+        background-color: #B336FF;
+        display: flex;
+        justify-content: space-between;
+         align-items: center;
+         width: 96vw;
+    }
+    .right{
+        display: flex;
+        justify-content: space-between;
+         align-items: center;
+        color: white;
+    }
+    .right p{
+        margin-left: 1.667vw;
+    }
+    .logo{
+        width: 21.597vw;
+    
+    }
+    .add{
+        height: 4.934vh;
+        background-color: #00E3E3;
+        font-family: Nunito;
+        font-weight: bold;
+        color: white;
+        border: none;
+        border-radius: 24px;
+        font-size: 1.0625em;
+    
+        width: 20.111vw;
+    }
+    .profile img{
+        width: 2.7vw;
+        height: 2.7vw;
+        margin-left: 1vw;
+    } 
+    .profile-name{
+        font-size: 1.5em;
+        font-family: Nunito;
+    }
+}
+@media only screen and (max-width: 767px)  {
+
+    nav{
+        background-color: #B336FF;
+        display: flex;
+        justify-content: space-around;
+        height: 5.724vh;
+        align-items: center;
+    }
+    .logo{
+        width: 27.449vw;
+        height: 3vh;
+    }
+    .add{
+        width: 17.757vw;
+        height: 1.944vh;
+        background-color: #00E3E3;
+        font-family: Nunito;
+        font-weight: bold;
+        color: white;
+        border: none;
+        border-radius: 24px;
+        font-size: 0.5em;
+    }
+    .profile-name{
+        font-family: Nunito;
+        color: white;
+        font-size: 0.75em;
+    }
+    .profile{
+        width: 4.439vw;
+        height: 4.439vw;
+    }
+    .right{
+        display: flex;
+        justify-content: space-between;
+        width: 50.664vw;
+        align-items: center;
+    }
+}

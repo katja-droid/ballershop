@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+// AppRouter.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Catalogue from './pages/Catalogue';
+import ProductDetail from './pages/ProductDetail';
+import Layout from './components/Layout';
+import { ShopContextProvider } from './context/ShopContext';
+import { FilterProvider } from './FilterContext';
+import { AuthProvider } from './AuthContext';
+import { SearchProvider } from './SearchContext';
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ShopContextProvider>
+      <SearchProvider>
+       <FilterProvider>
+       <AuthProvider>
+      <Routes>
+        
+        <Route path="/" element={<Layout/>}>
+        <Route index element={<Catalogue/>}></Route>
+        <Route path="/catalogue" element={<Catalogue/>} ></Route>
+        <Route path="/product/:productName"  element={<ProductDetail/>} exact >
+        </Route>
+        </Route>
+      </Routes>
+      </AuthProvider>
+      </FilterProvider>
+      </SearchProvider>
+      </ShopContextProvider>
   );
-}
+};
 
 export default App;

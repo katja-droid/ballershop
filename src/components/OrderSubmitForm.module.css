@@ -1,0 +1,38 @@
+.submitForm{
+    font-family: 'Nunito';
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.submitForm h2{
+    font-family: 'Nunito';
+    color: blueviolet;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2vh;
+}
+.submitForm input{
+    width: 100%;
+    padding: 5px;
+}
+.error{
+    color: red;
+}
+.submitForm button{
+    
+        border-radius: 3px;
+    background: #00E3E3;
+    padding: 30px 50px;
+    border: none;
+    color: #FFF;
+    
+    font-family: 'Nunito';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+   
+}

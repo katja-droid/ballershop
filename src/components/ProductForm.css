@@ -1,0 +1,58 @@
+.submitForm {
+    font-family: 'Nunito';
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+  }
+  
+  .submitForm h2 {
+    color: blueviolet;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2vh;
+    font-weight: bold;
+  }
+  
+  .submitForm input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .submitForm select {
+    width: 102.5%;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .submitForm textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .submitForm button {
+    border-radius: 3px;
+    background: #00E3E3;
+    padding: 15px 20px;
+    border: none;
+    color: #FFF;
+    font-family: 'Nunito';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .dropArea {
+    border: 2px dashed #000;
+    padding: 30px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  

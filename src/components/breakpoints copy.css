@@ -1,0 +1,97 @@
+@media only screen and (min-width: 1024px) {
+
+    .header-main{
+        background-image: url("/img/bg.png");
+        text-align: center;
+    
+        padding-bottom: 6.055vh;
+    }
+    .header-main h1{
+        padding-top: 6.055vh;
+        color: white;
+        font-family: 'Nunito';
+        font-weight: bold;
+        font-size: 1.5625em;
+    
+    }
+    .search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35.365vw;
+        margin: 0 auto;
+        margin-top: 4.785vh;
+    }
+    .header-main .search input{
+        width: 32.944vw;
+        height: 1.836vh;
+        font-size: 1.2em;
+    }
+     .search img{
+        width: 3.972vw;
+        height: 3.972vw;
+        margin-left: 1vw;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+
+    .header-main{
+        background-image: url("/img/bg.png");
+        text-align: center;
+        padding-bottom: 6.055vh;
+    }
+    .header-main h1{
+        padding-top: 6.055vh;
+        color: white;
+        font-family: 'Nunito';
+        font-weight: bold;
+        font-size: 3.125em;
+    
+    }
+    .search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35.365vw;
+        margin: 0 auto;
+        margin-top: 4.785vh;
+    }
+    .header-main .search input{
+        width: 25.703vw;
+        height: 4.358vh;
+        font-size: 1.2em;
+    }
+}
+@media only screen and (max-width: 767px)  {
+    .header-main{
+        background-image: url("/img/bg.png");
+        text-align: center;
+        padding-bottom: 6.055vh;
+    }
+    .header-main h1{
+        padding-top: 6.055vh;
+        color: white;
+        font-family: 'Nunito';
+        font-weight: bold;
+        font-size: 2.9em;
+    
+    }
+    .search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35.365vw;
+        margin: 0 auto;
+        margin-top: 4.785vh;
+    }
+    .header-main .search input{
+        width: 25.703vw;
+        height: 2.358vh;
+        font-size: 1.2em;
+    }
+     .search img{
+        width: 3.5vw;
+        height: 3.5vw;
+        margin-left: 1vw;
+    }
+}
